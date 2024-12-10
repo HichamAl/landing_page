@@ -21,8 +21,12 @@ body {
 
 
 .image-placeholder {
-    flex-grow: 1;
+    width: 500px;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
 
 p {
@@ -96,6 +100,7 @@ h1 {
     align-items: center;
     text-align: center;
     gap: 40px;
+    margin-bottom: 150px;
 }
 
 .image {
@@ -113,6 +118,43 @@ h1 {
 .information {
     text-align: center;
     padding: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 /* next section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
+    margin-right: 30px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.quote-block {
+    padding: 100px;
+}
