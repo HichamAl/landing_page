@@ -14,11 +14,28 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 0px 400px;
-    margin-bottom: 75px;
+    align-items: center;
     padding: 10px;
 }
 
+.navbar .links {
+    padding: 20px;
+}
+
+.navbar .logo {
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.navbar h3 {
+    margin: 0;
+}
 
 .image-placeholder {
     width: 500px;
@@ -27,6 +44,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    border-radius: 10px;
 }
 
 p {
@@ -41,6 +59,12 @@ p {
 .hero-section p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-section pre {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
 
 .header .logo,.header .hero-section h1 {
@@ -68,12 +92,11 @@ h1 {
 }
 
 .header-content {
-    margin: 0px 400px;
     display: flex;
     margin-bottom: 75px;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .hero-section {
